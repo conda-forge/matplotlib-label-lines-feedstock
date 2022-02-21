@@ -1,5 +1,5 @@
 {% set name = "matplotlib-label-lines" %}
-{% set version = "0.4.3" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cphyc/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: b4d2802b26fd0c90f28e0bab9be3eb01c4142083f7585d0a4d88334f769b2bdd
+  sha256: d2c85b7555c2741f446b73f42595e1febb3eb9ad4dbcbba18f8d8c6718d7e921
 
 build:
   noarch: python
