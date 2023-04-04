@@ -23,6 +23,7 @@ requirements:
     - python >=3.6
     - numpy
     - matplotlib-base
+    - more-itertools
 
 test:
   imports:
